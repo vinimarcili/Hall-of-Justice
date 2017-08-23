@@ -1,4 +1,4 @@
-# hall-of-justice
+# Hall Of Justice
 
 > Web application that aggregates events shared between groups of people.
 
