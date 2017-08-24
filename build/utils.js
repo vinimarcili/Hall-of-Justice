@@ -44,13 +44,20 @@ exports.cssLoaders = function (options) {
     }
   }
 
+  let scssOptions = {
+    includePaths: [
+      './assets/sass'
+    ],
+    data: `@import "~${path.resolve('./assets/sass/global')}";`
+  }
+
   // https://vue-loader.vuejs.org/en/configurations/extract-css.html
   return {
     css: generateLoaders(),
     postcss: generateLoaders(),
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
-    scss: generateLoaders('sass'),
+    scss: generateLoaders('sass', scssOptions),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }
