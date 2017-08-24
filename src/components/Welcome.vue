@@ -24,17 +24,16 @@ export default {
   padding: 15px;
   min-height: 100vh;
   width: 100%;
-  background: url('./../assets/images/justice-league.jpg');
+  background: #000 url('./../assets/images/justice-league.jpg') center center no-repeat;
   figure{
-    margin: 0 auto;
+    margin: 30px auto 0;
     max-width: 500px;
     width: 100%;
-    img{
-      opacity: 0;
-    }
   }
   h1{
-
+    font-size: 30px;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
     text-transform: uppercase;
   }
 }
