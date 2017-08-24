@@ -34,7 +34,6 @@ export default {
     font-size: 30px;
     color: #fff;
     font-family: Tahoma, Geneva, sans-serif;
-    text-transform: uppercase;
   }
 }
 </style>
